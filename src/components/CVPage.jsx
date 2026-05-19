@@ -63,7 +63,7 @@ const CVPage = () => {
           <Skills skills={skillsData} />
         </div>
       </div>
-      <footer className="text-center text-xl text-zinc-300 py-10 bg-zinc-800 rounded-t-3xl border-t border-zinc-700">
+      <footer className="text-center px-3 text-lg text-zinc-300 py-10 bg-zinc-800 rounded-t-3xl border-t border-zinc-700">
         © {new Date().getFullYear()} Lê Đức Kiên. CV dành cho vị trí Intern Front End.
       </footer>
     </div>
