@@ -8,9 +8,9 @@ const Projects = ({ projects }) => {
         {projects.map((proj, index) => (
           <a href={proj.url} key={index} className="bg-zinc-800 text-xl p-6 rounded-2xl cursor-pointer hover:bg-zinc-700 transition duration-300 group shadow-lg">
             <h3 className="text-2xl font-semibold text-teal-400 group-hover:text-teal-300">
-              <a href={proj.url} target="_blank" rel="noopener noreferrer" className="hover:underline">
+              <p className="hover:underline">
                 {proj.title}
-              </a>
+              </p>
             </h3>
             <p className="text-zinc-500 mb-2 text-lg">{proj.url}</p>
             <p className="text-lg text-zinc-400 mb-3"><span className="font-semibold text-zinc-200">Công nghệ:</span> {proj.tech}</p>
