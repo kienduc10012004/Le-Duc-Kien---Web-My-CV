@@ -26,7 +26,10 @@ const Skills = ({ skills }) => {
         </div>
         <div>
           <h3 className="text-xl font-semibold text-zinc-100">Chứng chỉ</h3>
-          <p className="text-zinc-300 text-xl ml-4">• Toeic 550</p>
+          <ul className="list-disc list-outside ml-6 text-zinc-300 text-xl space-y-1">
+            <li className="text-zinc-300 text-xl">Toeic 550</li>
+
+          </ul>
         </div>
       </div>
     </section>

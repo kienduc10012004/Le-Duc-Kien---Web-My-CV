@@ -20,17 +20,17 @@ const projectsData = [
     url: "https://solid-html-js-tailwindcss-hbgx.vercel.app/",
     tech: "HTML, TailwindCSS, slick, back-to-top,...",
     desc: "Xây dựng giao diện responsive, tập trung vào phần 'integrations' và các trang con.",
-    role: "Thực hiện phần 'integrations' đến hết, trang Blog, Doc, Support.",
+    role: "Thực hiện phần 'integrations' đến hết, các trang Blog, các Doc, Support.",
   },
   {
     title: "PHONE STORE",
-    url: "https://phone-store-manage-phone-html-js-ta.vercel.app/",
+    url: "https://phone-store-html-js-tailwindcss.vercel.app/",
     tech: "HTML, Tailwind, JavaScript, MockAPI",
     desc: "Shop điện thoại có trang quản trị, responsive, lọc, sắp xếp.",
     role: "Thực hiện trang quản lý sản phẩm.",
   },
   {
-    title: "SHOESSHOP",
+    title: "SHOES SHOP",
     url: "https://shoesshop-reactjs-tailwindcss-eiqy.vercel.app/",
     tech: "ReactJS, TailwindCSS",
     desc: "Shop bán giày, responsive, lọc, sắp xếp sản phẩm.",
@@ -40,8 +40,8 @@ const projectsData = [
 
 const skillsData = {
   hard: [
-    { name: "Front End", techs: "HTML, CSS3, JavaScript(ES6), ReactJS, Tailwindcss" },
-    { name: "Back End", techs: "NodeJS, ExpressJS, MongoDB, Java" },
+    { name: "Front End (sử dụng thành thạo)", techs: "HTML, CSS3, JavaScript(ES6), ReactJS, Tailwindcss" },
+    { name: "Back End (có tiếp xúc và sử dụng được)", techs: "NodeJS, ExpressJS, MongoDB, Java" },
     { name: "Công cụ", techs: "Github, VsCode, Eclipse, Docker, Figmar" },
   ],
   soft: ["Giao tiếp", "Làm việc nhóm", "Đọc tài liệu tiếng Anh"]
